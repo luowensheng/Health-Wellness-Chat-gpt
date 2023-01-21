@@ -1,5 +1,5 @@
 
-Health-Wellness-Chat-gpt
+# Health-Wellness-Chat-gpt
 
 ### installation locally
 
