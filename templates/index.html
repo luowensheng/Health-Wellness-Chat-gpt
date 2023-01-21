@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health and Wellness Chat</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+<body>
+
+
+    <main class="flex-center">
+
+        <div id="chat-wrapper" class="flex-column">
+
+            <div id="header" class="flex-center">
+                 <span>Health and Wellness Chat</span>
+            </div>
+
+            <div id="body" class="flex-column flex-center">
+                <div id="screen" class="flex-column">
+
+                    <div class="content ai">
+                        <p>
+                            How may I help you today?
+                        </p>
+                    </div>
+
+                </div>
+                
+                <div id="input-wrapper" >
+
+                    <div id="input-container" class="flex-row flex-center">
+                        <textarea  id="text-input" name="text-input" cols="30" rows="90"></textarea>
+                        <button id="first-prompt-btn" class="submit-button">Send</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="/static/index.js"></script>
+</body>
+</html>
